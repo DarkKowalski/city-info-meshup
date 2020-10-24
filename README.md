@@ -2,7 +2,7 @@
 
 ## Notice
 
-Read `Dockerfile.api` and `Dockerfile.api`, you can remove or change gem and npm mirrors
+Read `Dockerfile.api` and `Dockerfile.web`, you can remove or change gem and npm mirrors
 
 Read `docker-compose.yml` and setup environment variables!
 
@@ -20,3 +20,19 @@ docker-compose up
 ```
 
 then open `http://localhost:8080`
+
+## Screenshot
+
+Notice
+
+![screenshot](./screenshot/1.png)
+
+Meshup 
+
+![screenshot](./screenshot/2.png)
+
+![screenshot](./screenshot/3.png)
+
+Failure
+
+![screenshot](./screenshot/4.png)

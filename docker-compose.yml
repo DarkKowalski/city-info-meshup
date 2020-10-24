@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile.api
     environment:
-      - AQICN_ORG_KEY=demo     # API Keys 
+      - AQICN_ORG_KEY=         # API Keys 
       - OPENWEATHERMAP_ORG_KEY=
       - NEWSAPI_ORG_KEY=
       - HTTP_PROXY=            # Proxy
