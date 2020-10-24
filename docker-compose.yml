@@ -1,0 +1,22 @@
+version: '3'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      - AQICN_ORG_KEY=demo     # API Keys 
+      - OPENWEATHERMAP_ORG_KEY=
+      - NEWSAPI_ORG_KEY=
+      - HTTP_PROXY=            # Proxy
+      - HTTPS_PROXY=
+    ports:
+      - 8233:8233
+  vue:
+    build:
+      context: .
+      dockerfile: Dockerfile.vue
+    ports:
+      - 8080:8080
+    depends_on:
+      - api

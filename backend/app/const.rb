@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+module Meshup
+  AQICN_ORG_KEY = ENV['AQICN_ORG_KEY']
+  OPENWEATHERMAP_ORG_KEY = ENV['OPENWEATHERMAP_ORG_KEY']
+  NEWSAPI_ORG_KEY = ENV['NEWSAPI_ORG_KEY']
+end

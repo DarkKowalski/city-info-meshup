@@ -1,0 +1,8 @@
+FROM ruby:2.7.1
+WORKDIR /app
+COPY ./backend /app
+# add mirrors for users in China
+RUN bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+RUN bundle install
+EXPOSE 8233
+CMD ["rake"]

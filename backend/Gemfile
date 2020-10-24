@@ -1,0 +1,18 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+# Gems for basic structure
+gem 'rake', '~> 13.0'
+
+# Gems for HTTP Client
+gem 'faraday', '~>1.1.0'
+
+# Gems for web
+gem 'rack-cors', require: 'rack/cors'
+gem 'sinatra', '~> 2.1', require: 'sinatra/base'
+gem 'sinatra-contrib'
+
+# XML
+gem 'gyoku', '~> 1.0'
+gem 'nokogiri', '~> 1.10.10'
