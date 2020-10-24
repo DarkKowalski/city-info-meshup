@@ -1,5 +1,6 @@
 # SOA Homework
 
+All APIs can return a result in either JSON or XML format, read [API Doc](./doc/README.md) and checkout samples for more info.
 ## Notice
 
 Read `Dockerfile.api` and `Dockerfile.web`, you can remove or change gem and npm mirrors
